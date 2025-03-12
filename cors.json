@@ -1,0 +1,9 @@
+[
+    {
+      "origin": ["http://localhost:3000", "https://lekimoanh.com"],
+      "method": ["GET"],
+      "responseHeader": ["Content-Type", "Access-Control-Allow-Origin"],
+      "maxAgeSeconds": 3600
+    }
+  ]
+  
