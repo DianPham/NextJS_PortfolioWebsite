@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import {Ovo} from "next/font/google";
+import {Lora, Poppins} from "next/font/google";
 import "./globals.css";
 
+const poppins = Poppins({
+  subsets: ["latin"], weight: ["400", "500", "600"]
+});
 
-const ovo = Ovo({
-  subsets: ["latin"], weight: ["400"]
+const lora = Lora({
+  subsets: ["latin"], weight: ["400", "500", "600"]
 });
 
 export const metadata: Metadata = {
@@ -20,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${ovo.className} 
+        className={`${lora.className} ${poppins.className} 
         antialiased leading-8 overflow-x-hidden dark:bg-darkTheme
         dark:text-white`}
       >

@@ -130,11 +130,11 @@ const Carousel = ({ serviceData }) => {
                                 <div className="w-full md:w-1/2 flex flex-col justify-center p-5 md:p-6 bg-white relative dark:bg-darkTheme">
                                         <h3 className="font-bold text-2xl text-gray-800 mb-1 md:mb-2">{title}</h3>
                                         {description && (
-                                            <p className="text-sm text-gray-600 line-clamp-2">{description}</p>
+                                            <p className="text-sm text-gray-600 font-outfit line-clamp-2">{description}</p>
                                         )}
                                         
                                         {/* Learn More Link */}
-                                        <div className="mt-3 flex items-center text-blue-500 text-sm font-medium">
+                                        <div className="mt-3 flex items-center text-blue-500 text-sm font-outfit font-medium">
                                             <span>See more</span>
                                             <ChevronRight size={16} className="ml-1" />
                                         </div>

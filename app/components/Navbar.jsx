@@ -56,9 +56,9 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
             </button>
 
             <a href="#contact" className='hidden lg:flex items-center gap-3 
-            px-10 py-2.5 border border-gray-500 rounded-full ml-6 font-ovo
+            px-10 py-2.5 border border-gray-500 rounded-full ml-6 font-outfit
             dark:border-white/50'>
-                Contact
+                Connect
                 <Image src={isDarkMode?assets.arrow_icon_dark:assets.arrow_icon} alt="" className='w-3' />
             </a>
 

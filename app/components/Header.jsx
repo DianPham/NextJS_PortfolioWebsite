@@ -68,7 +68,7 @@ const Header = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 1 }} 
           viewport={{ once: true }} 
           className='px-10 py-3 border border-white rounded-full bg-black 
-          text-white flex items-center gap-2 dark:bg-transparent font-Outfit'
+          text-white flex items-center gap-2 dark:bg-transparent font-outfit'
         >
           Contact me
           <Image src={assets.right_arrow_white} alt='' className='w-4' />
@@ -81,7 +81,7 @@ const Header = ({ isDarkMode }) => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
           viewport={{ once: true }}
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
+          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black font-outfit"
         >
           resume
           <Image src={assets.download_icon} alt="download icon" className="w-4" />

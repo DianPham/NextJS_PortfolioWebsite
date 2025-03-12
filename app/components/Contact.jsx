@@ -53,7 +53,7 @@ const Contact = ({isDarkMode}) => {
         viewport={{ once: true }} 
         className='max-w-2xl mx-auto'
         >
-        <div className='grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 mt-10 mb-8'>
+        <div className='grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6 mt-10 mb-8 font-outfit'>
         <motion.input
         initial={{ x: -50, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -85,7 +85,7 @@ const Contact = ({isDarkMode}) => {
         rows='6' placeholder='Enter your message' required
             className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6
             dark:bg-darkHover dark:bg-opacity-30
-            dark:border-white'>
+            dark:border-white font-outfit'>
         </motion.textarea>
         <motion.button 
         whileHover={{ scale: 1.05 }}
@@ -94,7 +94,7 @@ const Contact = ({isDarkMode}) => {
             className='py-3 px-8 w-max flex items-center justify-between gap-2 
             bg-black bg-opacity-80 text-white rounded-full 
             mx-auto hover:bg-black duration-500 dark:bg-transparent 
-            dark:border-[0.5px] dark:hover:bg-darkHover'>
+            dark:border-[0.5px] dark:hover:bg-darkHover font-outfit'>
             Submit <Image src={assets.right_arrow_white} alt='' className='w-4'/>
         </motion.button>
 
