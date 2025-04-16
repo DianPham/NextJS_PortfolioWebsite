@@ -11,7 +11,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Le Kim Oanh's Portfolio website",
+  title: "Lê Kim Oanh",
   description: "",
 };
 
@@ -22,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      </head>
       <body
         className={`${lora.className} ${poppins.className} 
         antialiased leading-8 overflow-x-hidden dark:bg-darkTheme

@@ -35,7 +35,6 @@ export default function Home() {
   return (
     <>
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
-      {/* Pass heroData to Header */}
       <Header isDarkMode={isDarkMode} />
       <About isDarkMode={isDarkMode} />
       <Skills isDarkMode={isDarkMode} />

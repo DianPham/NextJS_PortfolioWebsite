@@ -16,14 +16,14 @@ const About = ({isDarkMode}) => {
           transition={{ duration: 0.5, delay: 0.3 }}
           viewport={{ once: true }} 
           className='text-center mb-2 text-lg font-ovo'>
-          Introduction
+          Giới thiệu
         </motion.h4>
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
           viewport={{ once: true }} 
-          className='text-center text-5xl font-ovo'>
+          className='text-center text-6xl font-ovo'>
           Về mình
         </motion.h2>
   
@@ -51,11 +51,10 @@ const About = ({isDarkMode}) => {
               viewport={{ once: true }}                
               className='flex-1 overflow-visible'>
               <p className='mb-10 max-w-2xl font-ovo text-lg'>
-              Mình là giáo viên mầm non 21 tuổi, sống tại Hồ Chí Minh, 
-              yêu trẻ và thích chơi đùa cùng các bé. Mình luôn muốn tạo môi 
-              trường học tập vui vẻ, sáng tạo và ấm áp. Ngoài ra, mình 
-              còn đam mê làm bánh, mang đến những khoảnh khắc ngọt ngào 
-              và đáng nhớ. 💕👶🎨🍪
+              Hiện mình đang sống tại Thành phố Hồ Chí Minh, 
+              là cử nhân ngành Sư phạm Mầm Non tại trường Đại học Sư Phạm TP.HCM.
+              Mình có sở thích trồng cây, hội họa và làm đồ handmade.
+              Châm ngôn sống của mình là <span className="font-bold">"Cách duy nhất để làm được những điều không thể là tin rằng đó là điều có thể"</span>🎨🍪
               </p>
 
               <motion.ul initial={{ opacity: 0 }}

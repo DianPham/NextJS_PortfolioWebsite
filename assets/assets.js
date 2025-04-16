@@ -83,37 +83,32 @@ export const assets = {
 export const workData = [
     {
         title: 'Giáo viên thực tập',
-        description: 'Trường mầm non ABC',
-        bgImage: '/work-1.png',
+        description: 'Trường mầm non Măng Non II',
+        bgImage: '/work-1.jpg',
     },
     {
-        title: 'Giáo viên thực tập',
-        description: 'Trường mầm non ABC',
-        bgImage: '/work-1.png',
+        title: 'Giáo viên năng khiếu',
+        description: 'Trung tâm BlueKids',
+        bgImage: '/work-2.jpg',
     },
     {
-        title: 'Giáo viên thực tập',
-        description: 'Trường mầm non ABC',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Giáo viên thực tập',
-        description: 'Trường mầm non ABC',
-        bgImage: '/work-1.png',
+        title: 'Trợ giảng kỹ năng sống',
+        description: 'Công ty Nhân Trí Dũng',
+        bgImage: '/work-3.jpg',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Múa', description: 'Duyên dáng, thanh thoát, đam mê, kiên trì, uyển chuyển, sáng tạo, mạnh mẽ, tinh tế, kỷ luật, cuốn hút.', link: '', image: ballet},
-    { icon: assets.mobile_icon, title: 'Thiện nguyện', description: 'Nhân ái, nhiệt huyết, tận tâm, kiên trì, trách nhiệm, hy sinh, hòa đồng, lạc quan, sáng tạo, cống hiến.', link: '', image: volunteer },
-    { icon: assets.ui_icon, title: 'Làm bánh', description: 'Đam mê, sáng tạo, tỉ mỉ, kiên nhẫn, ngọt ngào, khéo léo, tinh tế, cẩn thận, nhiệt huyết, yêu thích.', link: '', image: bake},
-    { icon: assets.graphics_icon, title: 'Du lịch', description: 'Phiêu lưu, khám phá, tự do, đam mê, tò mò, năng động, trải nghiệm, mạo hiểm, thích nghi, vui vẻ.', link: '', image: travel},
+    {title: 'Nghệ thuật', description: 'Những hình ảnh về nghệ thuật mình từng tham gia.', link: '', image: ballet},
+    {title: 'Thiện nguyện', description: 'Với mình, khi cho đi chính chúng ta cũng đang nhận lại.', link: '', image: volunteer },
+    {title: 'Làm bánh', description: 'Con đường ngắn nhất đi đến trái tim là qua đường bao tử, đồ ngọt thì nhanh hơn.', link: '', image: bake},
+    {title: 'Du lịch', description: 'Hãy chỉ nhớ những kỷ niệm, và để lại những dấu chân.', link: '', image: travel},
 ]
 
 export const infoList = [
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Cử nhân Sư phạm mầm non' },
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Skills', description: 'Múa, hát, nhảy, cheerleading,...' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Experiences', description: 'Từng giảng dạy tại nhiều trường mầm non' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Giáo dục', description: 'Cử nhân Sư phạm mầm non' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Kỹ năng', description: 'Múa, nhảy, trồng cây, làm bánh,...' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Kinh nghiệm', description: 'Từng được giảng dạy tại nhiều trường mầm non' },
 ];
 
 export const toolsData = [
