@@ -85,16 +85,19 @@ export const workData = [
         title: 'Giáo viên thực tập',
         description: 'Trường mầm non Măng Non II',
         bgImage: '/work-1.jpg',
+        link:'/hinh-anh/mang-non-II'
     },
     {
         title: 'Giáo viên năng khiếu',
         description: 'Trung tâm BlueKids',
         bgImage: '/work-2.jpg',
+        link:'/hinh-anh/bluekids'
     },
     {
-        title: 'Trợ giảng kỹ năng sống',
-        description: 'Công ty Nhân Trí Dũng',
+        title: 'Giáo viên giảng dạy',
+        description: 'Trường mầm non Sao Nhí',
         bgImage: '/work-3.jpg',
+        link:'/hinh-anh/sao-nhi'
     },
 ]
 
