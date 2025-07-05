@@ -128,9 +128,9 @@ const Carousel = ({ serviceData }) => {
                             
                                 {/* Content Section - Full width on mobile, half width on larger screens */}
                                 <div className="w-full md:w-1/2 flex flex-col justify-center p-5 md:p-6 bg-white relative dark:bg-darkTheme">
-                                        <h3 className="font-bold text-2xl text-gray-800 mb-1 md:mb-2">{title}</h3>
+                                        <h3 className="font-bold text-2xl text-gray-800 dark:text-white mb-1 md:mb-2">{title}</h3>
                                         {description && (
-                                            <p className="text-sm text-gray-600 font-outfit line-clamp-3">{description}</p>
+                                            <p className="text-sm dark:text-white/80 text-gray-600 font-outfit line-clamp-3">{description}</p>
                                         )}
                                         
                                         {/* Learn More Link */}
